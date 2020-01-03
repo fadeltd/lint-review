@@ -39,6 +39,8 @@
         <property name="basedir" value="${basedir}"/>
     -->
 
+    <module name="LineLength"/>
+
     <!-- Checks whether files end with a new line.                        -->
     <!-- See http://checkstyle.sf.net/config_misc.html#NewlineAtEndOfFile -->
     <module name="NewlineAtEndOfFile"/>
@@ -103,7 +105,6 @@
 
         <!-- Checks for Size Violations.                    -->
         <!-- See http://checkstyle.sf.net/config_sizes.html -->
-        <module name="LineLength"/>
         <module name="MethodLength"/>
         <module name="ParameterNumber"/>
 
